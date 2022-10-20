@@ -1,0 +1,172 @@
+/* navbar påbegyndt */
+
+body{
+    margin:0;
+    padding:0;
+    background: #b0b0a8;
+}
+nav{
+    width:100%;
+    overflow:auto;
+    background: #efefef;
+}
+
+ul{
+   padding:0;
+    margin: 0 0 0 250px;
+    list-style:none;
+}
+
+
+li{
+    float:left;
+}
+
+
+li a{
+width:100px;
+display: block;
+padding: 45px 15px;
+text-decoration: none;
+font-family: fantasy;
+color:#4e453e;
+text-align: center;
+}
+
+li a:hover{
+background: #edbfd4;
+text-transform: uppercase;
+}
+
+.flex-container ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li.flex-item{
+    display: flex;
+    list-style: none;
+}
+
+li.flex-item.item6 {
+        margin: 1.3em;
+}
+
+
+.logo img{
+    position:absolute;
+    margin-top: 5px;
+    margin-left:10px;
+}
+
+nav input[type=text]{
+    float:right;
+    padding: 6px;
+    border:none;
+    margin-top:16px;
+    margin-right:100px;
+    font-size: 17px;
+    border-radius: 10px;
+    outline:none;
+}
+
+/* Navbar slut */
+
+/* billede */
+
+.forside{
+    background-image: url(./image/baggrund.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* billeder */
+
+#udforsk-her {
+    position: absolute;
+    left: 46%;
+    margin-top: 37%;
+    width: 10em;
+    padding: 0.9em 0.8em;
+    border-radius: 1.5em;
+    font-family: fantasy;
+}
+#udforsk-her:hover {
+background-color:#edbfd4 ;
+}
+
+
+
+
+
+/* footer */
+
+
+.footer{
+    margin-top: 0px;
+    width:97,5%;
+    padding:70px 15px;
+    background: #b0b0a8;
+    color: white;
+    display: flex;
+    font-size: 0.65rem;
+}
+
+
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+form input{
+    width:400px;
+    height:45px;
+    border-radius:4px;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 40px;
+    outline:none;
+    border:none;
+}
+
+form button{
+    background:transparent;
+    border: 2px solid #fff;
+    color:#fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size:15px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #edbfd4;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons i{
+font-size: 22px;
+margin:10px;
+cursor: pointer;
+}
+
+/* footer slut */
